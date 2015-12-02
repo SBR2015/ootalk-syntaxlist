@@ -1,5 +1,7 @@
 # Ootalk::Syntaxlist
 
+[![Build Status](https://travis-ci.org/SBR2015/ootalk-syntaxlist.svg?branch=master)](https://travis-ci.org/SBR2015/ootalk-syntaxlist)
+
 Syntaxlist for OoTalk.
 Syntax is written in natural language, and now it supports English, Japanese, Mandarin Chinese, Vietnamese.
 
