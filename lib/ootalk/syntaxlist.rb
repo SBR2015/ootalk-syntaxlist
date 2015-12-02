@@ -20,6 +20,7 @@ module Ootalk
           this_class[:class_name] = key
           this_class[:name] = _value['name']
           this_class[:string] = _value['string']
+          this_class[:description] = _value['description']
           options.push(this_class)
           i += 1
         end
