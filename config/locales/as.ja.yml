@@ -2,81 +2,107 @@ ja:
   Add:
     name: "足す"
     string: "@left\tと\t@right\tを足す"
+    description: "足し算をします"
   Subtract:
     name: "引く"
     string: "@left\tから\t@right\tを引く"
+    description: "引き算をします"
   Times:
     name: "掛ける"
     string: "@left\tと\t@right\tを掛ける"
+    description: "掛け算をします"
   Divide:
     name: "割る"
     string: "@left\tを\t@right\tに割る"
+    description: "割り算をします"
   Surplus:
     name: "余り"
     string: "@left\t割る\t@right\tの余り"
+    description: "剰余算をします"
   Logarithm:
     name: "対数"
     string: "@left\tを底数とする\t@right\tの対数"
+    description: "aを底とするxの対数を求めます"
   Power:
     name: "累乗"
     string: "@left\tの\t@right\t乗"
+    description:  "n個のbを掛け算にして「bのn乗」を求めます"
   And:
     name: "論理積"
     string: "@left\tand\t@right"
+    description: "xとy同じ部分"
   Nand:
     name: "否定論理積"
     string: "@left\tnand\t@right"
+    description: "xとy同じ部分以外"
   Or:
     name: "論理和"
     string: "@left\tor\t@right"
+    description: "xまたはy"
   Nor:
     name: "否定論理和"
     string: "@left\tnor\t@right"
+    description: "xとy両方ではありません"
   Xor:
     name: "排他的論理和"
     string: "@left\txor\t@right"
+    description: "xとy同じなら、結果成り立ちません"
   EqualTo:
     name: "同じ"
     string: "@left\tは\t@right\tと等しい"
+    description: "xはyと等しいです"
   NotEqual:
     name: "違う"
     string: "@left\tは\t@right\tと等しくない"
+    description: "xはyと等しいではありません"
   GreaterThan:
     name: "大なり"
     string: "@left\tは\t@right\tより大きい"
+    description: "xはyより大きいです"
   GreaterThanOrEqualTo:
     name: "以上"
     string: "@left\tは\t@right\t以上"
+    description: "xはyと等しい、あるいはyより大きいです"
   LessThan:
     name: "小なり"
     string: "@left\tは\t@right\tより小さい"
+    description: "xはyより小さいです"
   LessThanOrEqualTo:
     name: "以下"
     string: "@left\tは\t@right\t以下"
+    description: "xはyと等しい、あるいはyより小さいです"
   Program:
     name: "プログラム"
     string: "プログラム"
+    description:
   Instruction:
     name: "インストラクション"
     string: "インストラクション"
+    description:
   Skip:
     name: "スキップ"
     string: "スキップ"
+    description:
   Assignment:
     name: "代入"
     string: "@right\tを\t@left\tに代入する"
+    description: "数値yを使って、変数xの値を設定します"
   # Compound:
   #   name: "複合文"
   #   string: "複合文"
   Loop:
     name: "くりかえし"
     string: ""
+    description:
   Conditional:
     name: "条件文"
     string: "もし\t@leftならば\t@middle\tそうでなければ\t@right"
+    description: "条件成り立てば、「実行1」をします;成り立てなければ、「実行2」をします"
   Variable:
     name: "変数"
     string: "変数\t@left"
+    description: "未知あるいは不定の数"
   Constant:
-    name: "数字"
+    name: "数値"
     string: "@left"
+    description: "値が固定されて変化しない数"
