@@ -2,72 +2,94 @@ cn:
   Add:
     name: "加上"
     string: "求\t@left\t加上\t@right\t的和"
+    description: "加法"
   Subtract:
     name: "减去"
     string: "求\t@left\t减去\t@right\t的差"
+    description: "减法"
   Times:
     name: "乘以"
     string: "求\t@left\t乘以\t@right\t的积"
+    description: "乘法"
   Divide:
     name: "除以"
     string: "求\t@left\t除以\t@right\t的商"
+    description: "除法（求商）"
   Surplus:
     name: "求余"
     string: "求\t@left\t除以\t@right\t的余"
+    description: "求余数"
   Logarithm:
     name: "取对数"
     string: "取以\t@left\t为底\t@right\t的对数"
+    description: "求以a为底x的对数"
   Power:
     name: "幂运算"
     string: "求\t@left\t的\t@right\t次幂"
+    description: "求b的n次幂（n个b相乘）"
   And:
     name: "与"
     string: "@left\t与\t@right"
+    description: "x和y的公共部分"
   Nand:
     name: "非与"
     string: "@left\t非与\t@right"
+    description: "x和y的非公共部分"
   Or:
     name: "或"
     string: "@left\t或\t@right"
+    description: "x或者y"
   Nor:
     name: "非或"
     string: "@left\t非或\t@right"
+    description: "既不是x也不是y"
   Xor:
     name: "异或"
     string: "@left\t异或\t@right"
+    description: “只要x和y一样，结果就不成立”
   EqualTo:
     name: "等于"
     string: "@left\t等于\t@right"
+    description: "x和y相等"
   NotEqual:
     name: "不等于"
     string: "@left\t非等于\t@right"
+    description:  "x和y不相等"
   GreaterThan:
     name: "大于"
     string: "@left\t大于\t@right"
+    description: “x大于y”
   GreaterThanOrEqualTo:
     name: "大于等于"
     string: "@left\t大于等于\t@right"
+    description: "x大于或等于y"
   LessThan:
     name: "小于"
     string: "@left\t小于\t@right"
+    description: "x小于y"
   LessThanOrEqualTo:
     name: "小于等于"
     string: "@left\t小于等于\t@right"
+    description: "x小于或等于y"
   # Skip:
   #   name: "注释"
   #   string: "注释\t@left"
   Assignment:
     name: "代入"
     string: "把\t@rignt\t代入\t@left"
+    description: "定义变量x的值为定数y"
   Loop:
     name: "循环"
     string:
   Conditional:
     name: "条件"
     string: "如果\t@left\t那么\t@middle\t否则\t@right"
+    description: "如果条件a成立，执行b；如果a不成立，执行c"
   Variable:
     name: "变数"
     string: "变数@left"
+    description: "一个值可以随意变更的值的名称"
   Constant:
     name: "定数"
     string: "@left"
+    description: "一个不能变更的数"
