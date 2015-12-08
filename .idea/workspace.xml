@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="baa8c2af-7cb8-4b4d-aa7a-eb307a86a0a7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.rakeTasks" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/ootalk-syntaxlist.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/locales/as.en.yml" afterPath="$PROJECT_DIR$/config/locales/as.en.yml" />
-    </list>
+    <list default="true" id="baa8c2af-7cb8-4b4d-aa7a-eb307a86a0a7" name="Default" comment="" />
     <ignored path="ootalk-syntaxlist.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -60,7 +51,7 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="676" />
+    <option name="x" value="393" />
     <option name="y" value="23" />
     <option name="width" value="998" />
     <option name="height" value="679" />
@@ -144,7 +135,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="676" y="23" width="998" height="679" extended-state="0" />
+    <frame x="393" y="23" width="998" height="679" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952693" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
