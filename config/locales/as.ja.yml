@@ -70,19 +70,15 @@ ja:
   LessThanOrEqualTo:
     name: "以下"
     string: "@left\tは\t@right\t以下"
-    description: "xはyと等しい、あるいはyより小さいです"
-  Program:
-    name: "プログラム"
-    string: "プログラム"
-    description:
-  Instruction:
-    name: "インストラクション"
-    string: "インストラクション"
-    description:
-  Skip:
-    name: "スキップ"
-    string: "スキップ"
-    description:
+  #Program:
+  #  name: "プログラム"
+  #  string: "プログラム"
+  #Instruction:
+  #  name: "インストラクション"
+  #  string: "インストラクション"
+  #Skip:
+  #  name: "スキップ"
+  #  string: "スキップ"
   Assignment:
     name: "代入"
     string: "@right\tを\t@left\tに代入する"
