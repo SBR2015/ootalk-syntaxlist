@@ -2,57 +2,75 @@ vi:
   Add:
     name: "Cộng"
     string: "@left\tcộng với\t@right"
+    description: "Thực hiện phép cộng"
   Subtract:
     name: "Trừ"
     string: "@left\ttrừ đi\t@right"
+    description: "Thực hiện phép trừ"
   Times:
     name: "Nhân"
     string: "@left\tnhân với\t@right"
+    description: "Thực hiện phép nhân"
   Divide:
     name: "Chia"
     string: "@left\tchia cho\t@right"
+    description: "Thực hiện phép chia"
   Surplus:
     name: "Số dư"
     string: "số dư của\t@left\tkhi chia cho\t@right"
+    description: "Thực hiện tìm số dư của thương 2 số"
   Logarithm:
     name: "Logarit"
     string: "logarit\t@left\tcủa\t@right"
+    description: "Thực hiện phép tính logarit"
   Power:
     name: "Hàm mũ"
     string: "@left\tmũ\t@right"
+    description: "Thực hiện phép tính hàm mũ của 1 số"
   And:
     name: "Nhân logic"
     string: "@left\tand\t@right"
+    description: "Thực hiện phép nhân logic"
   Nand:
     name: "Phủ định nhân logic"
     string: "@left\tnand\t@right"
+    description: "Phủ định của phép nhân logic"
   Or:
     name: "Cộng logic"
     string: "@left\tor\t@right"
+    description: "Thực hiện phép cộng logic"
   Nor:
     name: "Phủ định cộng logic"
     string: "@left\tnor\t@right"
+    description: "Phủ định của phép cộng logic"
   Xor:
     name: "Cộng loại trừ"
     string: "@left\txor\t@right"
+    description: "Thực hiện phép cộng loại trừ"
   EqualTo:
     name: "Bằng"
     string: "@left\tbằng\t@right"
+    description: "Thực hiện phép so sánh bằng"
   NotEqual:
     name: "Khác"
     string: "@left\tkhác\t@right"
+    description: "Thực hiện phép so sánh khác"
   GreaterThan:
     name: "Lớn hơn"
     string: "@left\tlớn hơn\t@right"
+    description: "Thực hiện phép so sánh lớn hơn"
   GreaterThanOrEqualTo:
     name: "Lớn hơn hoặc bằng"
     string: "@left\tlớn hơn hoặc bằng\t@right"
+    description: "Thực hiện phép so sánh lớn hơn hoặc bằng"
   LessThan:
     name: "Nhỏ hơn"
     string: "@left\tnhỏ hơn\t@right"
+    description: "Thực hiện phép so sánh nhỏ hơn"
   LessThanOrEqualTo:
     name: "Nhỏ hơn hoặc bằng"
     string: "@left\tnhỏ hơn hoặc bằng\t@right"
+    description: "Thực hiện phép so sánh nhỏ hơn hoặc bằng"
   # Program:
   #   name: "Chương trình"
   #   string: "chương trình"
@@ -65,18 +83,23 @@ vi:
   Assignment:
     name: "Gán"
     string: "gán giá trị\t@left\tcho\t@right"
+    description: "Thực hiện phép gán giá trị cho 1 biến"
   # Compound:
   #   name: "Khối lệnh"
   #   string: "khối lệnh"
   Loop:
     name: "Vòng lặp"
     string: ""
+    description: "Thực hiện khối lệnh lặp"
   Conditional:
     name: "Câu điều kiện"
     string: "nếu\t@left\tthì\t@middle\tkhông thì\t@right"
+    description: "Thực hiện khối lệnh có điều kiện"
   Variable:
     name: "Biến"
     string: "biến\t@left"
+    description: "Tạo 1 biến số"
   Constant:
     name: "Hằng số"
     string: "@left"
+    description: "Số với giá trị không đổi"
