@@ -78,9 +78,14 @@ cn:
     name: "代入"
     string: "把\t@rignt\t代入\t@left"
     description: "定义变量x的值为定数y"
-  Loop:
-    name: "循环"
-    string:
+  Compound:
+      name: "闭包"
+      string: "{\t@left\t;\n\t@right\t;\n}"
+      description: "闭包"
+    Loop:
+      name: "循环"
+      string: "当\t@left\t是真时\n 执行\n \t@right\t\n 结束"
+      description: "循环"
   Conditional:
     name: "条件"
     string: "如果\t@left\t那么\t@middle\t否则\t@right"
