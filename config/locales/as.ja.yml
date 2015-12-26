@@ -83,12 +83,13 @@ ja:
     name: "代入"
     string: "@right\tを\t@left\tに代入する"
     description: "数値yを使って、変数xの値を設定します"
-  # Compound:
-  #   name: "複合文"
-  #   string: "複合文"
+  Compound:
+    name: "複合文"
+    string: "{\t@left\t;\n \t@right\t;\n }"
+    description: "複合文"
   Loop:
     name: "くりかえし"
-    string: ""
+    string: "もし\t@leftならば 実行\n \t@right\t\n そうでなければ、終わります"
     description:
   Conditional:
     name: "条件文"

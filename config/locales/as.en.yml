@@ -86,7 +86,7 @@ en:
     description: "A type of modification to a variable"
   Compound:
     name: "Compound"
-    string: "{\t@left\t;\n\t@right\t;\n}"
+    string: "{\t@left\t;\n \t@right\t;\n }"
     description: "Block"
   Loop:
     name: "Loop"
