@@ -11,4 +11,11 @@ describe Ootalk::Syntaxlist do
     expect(Ootalk::Syntaxlist.create(:cn)).to be_truthy
     expect(Ootalk::Syntaxlist.create(:vi)).to be_truthy
   end
+
+  it 'does has symbols' do
+    data = Ootalk::Syntaxlist.create(:en)
+    data.each do |dat|
+        expect(dat[:symbol]).not_to be_nil 
+    end
+  end
 end
