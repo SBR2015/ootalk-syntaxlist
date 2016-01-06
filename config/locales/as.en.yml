@@ -84,12 +84,13 @@ en:
     name: "Assignment"
     string: "assign\t@right\tto\t@left"
     description: "A type of modification to a variable"
-  # Compound:
-  #   name: "Compound"
-  #   string: "compound"
+  #Compound:
+   # name: "Compound"
+    #string: "{\t@left\t;\n \t@right\t;\n }"
+    #description: "Block"
   Loop:
     name: "Loop"
-    string: ""
+    string: "while\t@left\tistrue\n do\n \t@right\t\n end"
     description: "A method of control flow with bounded loops"
   Conditional:
     name: "Conditional"
