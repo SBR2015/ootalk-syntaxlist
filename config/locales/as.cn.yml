@@ -92,7 +92,7 @@ cn:
     description: "如果条件a成立，执行b；如果a不成立，执行c"
   Variable:
     name: "变数"
-    string: "变数@left"
+    string: "变数\t@left"
     description: "一个值可以随意变更的值的名称"
   Constant:
     name: "定数"
