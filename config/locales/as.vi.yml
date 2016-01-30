@@ -89,7 +89,7 @@ vi:
   #   string: "khối lệnh"
   Loop:
     name: "Vòng lặp"
-    string: ""
+    string: "nếu\t@left\tthì thực hiện lặp\t@right\tnếu không thì dừng lặp"
     description: "Thực hiện khối lệnh lặp"
   Conditional:
     name: "Câu điều kiện"
