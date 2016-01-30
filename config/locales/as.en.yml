@@ -90,7 +90,7 @@ en:
     #description: "Block"
   Loop:
     name: "Loop"
-    string: "while\t@left\tistrue\n do\n \t@right\t\n end"
+    string: "while\t@left\tis true\n do\n \t@right\t\n end"
     description: "A method of control flow with bounded loops"
   Conditional:
     name: "Conditional"

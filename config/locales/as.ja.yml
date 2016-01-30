@@ -89,8 +89,8 @@ ja:
     #description: "複合文"
   Loop:
     name: "くりかえし"
-    string: "もし\t@left\tならば 実行\n \t@right\t\n そうでなければ、終わります"
-    description:
+    string: "もし\t@left\tならば 実行\n \t@right\t\n そうでなければ、終了"
+    description: "条件が真ならば、実行を続けます。"
   Conditional:
     name: "条件文"
     string: "もし\t@left\tならば\t@middle\tそうでなければ\t@right"
