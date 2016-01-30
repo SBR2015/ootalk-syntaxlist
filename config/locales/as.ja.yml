@@ -89,11 +89,11 @@ ja:
     #description: "複合文"
   Loop:
     name: "くりかえし"
-    string: "もし\t@leftならば 実行\n \t@right\t\n そうでなければ、終わります"
+    string: "もし\t@left\tならば 実行\n \t@right\t\n そうでなければ、終わります"
     description:
   Conditional:
     name: "条件文"
-    string: "もし\t@leftならば\t@middle\tそうでなければ\t@right"
+    string: "もし\t@left\tならば\t@middle\tそうでなければ\t@right"
     description: "条件成り立てば、「実行1」をします;成り立てなければ、「実行2」をします"
   Variable:
     name: "変数"
